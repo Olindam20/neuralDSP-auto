@@ -9,8 +9,7 @@ from google.genai import types
 from dotenv import load_dotenv
 
 # 1. Initialize the GenAI Client
-# WARNING: Keep your API key secret!
-load_dotenv() # Load environment variables from .env file
+load_dotenv() 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 # 2. DYNAMIC CONFIGURATION LOADER
