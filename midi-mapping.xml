@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<midi>
+  <routings>
+    <routing type="cc_absolute" target="inputGain" midiChannel="0" data1="1" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="outputGain" midiChannel="0" data1="2" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="gateThreshold" midiChannel="0" data1="3" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="gateActive" midiChannel="0" data1="4" data2="0" value="0.0" enabled="1"/>
+
+    <routing type="cc_absolute" target="cleanAmpVolume" midiChannel="0" data1="10" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="cleanAmpBass" midiChannel="0" data1="11" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="cleanAmpCut" midiChannel="0" data1="12" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="cleanAmpMaster" midiChannel="0" data1="13" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="cleanAmpOutput" midiChannel="0" data1="14" data2="0" value="0.0" enabled="1"/>
+
+    <routing type="cc_absolute" target="crunchAmpGain" midiChannel="0" data1="20" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="crunchAmpBass" midiChannel="0" data1="21" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="crunchAmpMid" midiChannel="0" data1="22" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="crunchAmpTreble" midiChannel="0" data1="23" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="crunchAmpPresence" midiChannel="0" data1="24" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="crunchAmpMaster" midiChannel="0" data1="25" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="crunchAmpOutput" midiChannel="0" data1="26" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="crunchAmpMode" midiChannel="0" data1="27" data2="0" value="0.0" enabled="1"/>
+
+    <routing type="cc_absolute" target="leadAmpGain" midiChannel="0" data1="30" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="leadAmpBass" midiChannel="0" data1="31" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="leadAmpMid" midiChannel="0" data1="32" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="leadAmpTreble" midiChannel="0" data1="33" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="leadAmpPresence" midiChannel="0" data1="34" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="leadAmpMaster" midiChannel="0" data1="35" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="leadAmpOutput" midiChannel="0" data1="36" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="leadAmpBright" midiChannel="0" data1="37" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="leadAmpShift" midiChannel="0" data1="38" data2="0" value="0.0" enabled="1"/>
+
+    <routing type="cc_absolute" target="compressorCompression" midiChannel="0" data1="40" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="compressorEQ" midiChannel="0" data1="41" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="compressorMix" midiChannel="0" data1="42" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="compressorVolume" midiChannel="0" data1="43" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="compressorActive" midiChannel="0" data1="44" data2="0" value="0.0" enabled="1"/>
+
+    <routing type="cc_absolute" target="drive1Gain" midiChannel="0" data1="45" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="drive1Tone" midiChannel="0" data1="46" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="drive1MidBoost" midiChannel="0" data1="47" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="drive1Volume" midiChannel="0" data1="48" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="drive1Active" midiChannel="0" data1="49" data2="0" value="0.0" enabled="1"/>
+
+    <routing type="cc_absolute" target="drive2Gain" midiChannel="0" data1="50" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="drive2Cut" midiChannel="0" data1="51" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="drive2Volume" midiChannel="0" data1="52" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="drive2Active" midiChannel="0" data1="53" data2="0" value="0.0" enabled="1"/>
+
+    <routing type="cc_absolute" target="modSpeed" midiChannel="0" data1="55" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="modIntensity" midiChannel="0" data1="56" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="modMode" midiChannel="0" data1="57" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="modActive" midiChannel="0" data1="58" data2="0" value="0.0" enabled="1"/>
+
+    <routing type="cc_absolute" target="delayMix" midiChannel="0" data1="60" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="delayFeedback" midiChannel="0" data1="61" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="delayTime" midiChannel="0" data1="62" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="delayWidth" midiChannel="0" data1="63" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="delayTapeDrive" midiChannel="0" data1="64" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="delayTapeMod" midiChannel="0" data1="65" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="delayBass" midiChannel="0" data1="66" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="delayTreble" midiChannel="0" data1="67" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="delayModeSelector" midiChannel="0" data1="68" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="delayActive" midiChannel="0" data1="69" data2="0" value="0.0" enabled="1"/>
+
+    <routing type="cc_absolute" target="reverbMix" midiChannel="0" data1="70" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="reverbDecay" midiChannel="0" data1="71" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="reverbPreDelay" midiChannel="0" data1="72" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="reverbLowCut" midiChannel="0" data1="73" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="reverbHighCut" midiChannel="0" data1="74" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="reverbMode" midiChannel="0" data1="75" data2="0" value="0.0" enabled="1"/>
+    <routing type="cc_absolute" target="reverbActive" midiChannel="0" data1="76" data2="0" value="0.0" enabled="1"/>
+  </routings>
+</midi>
